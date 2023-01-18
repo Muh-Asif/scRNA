@@ -3,12 +3,11 @@ Interactive and Automated KNIME workflow for scRNA seq**
 
 **Samina Kausar1,†, Muhammad Asif 2,†, \*, and Anaïs Baudot1,3,4 \***
 
-**^1^Biomedical Data Science Lab, Department of Bioinformatics and
+**^2^Biomedical Data Science Lab, Department of Bioinformatics and
 Biotechnology, Government College University Faisalabad, Faisalabad
 38000, Pakistan,**
 
-**^2^Aix Marseille Univ, INSERM, MMG, Marseille Medical Genetics, CNRS,
-Turing Center for Living Systems, Marseille, France,**
+**<sup>1</sup>Aix Marseille Université, INSERM, MMG, Marseille, France**
 
 **^3^Barcelona Supercomputing Center (BSC), Barcelona 08034, Spain.**
 
