@@ -19,29 +19,29 @@ Muhammad Asif: muhasif123@gmail.com
 
 <sup>†</sup>Equal contributing authors
 
-**Instructions for using the scRNAseq_KNIME workflow**
+<h2>Instructions for using the scRNAseq_KNIME workflow</h2>
 
-**Outline**
+<h2>Outline</h2>
 
-1.  **Download R and Rstudio**
+1.  Download R and Rstudio
 
-2.  **Download R packages required for scRNA-seq analysis**
+2.  Download R packages required for scRNA-seq analysis
 
-3.  **Introduction to KNIME platform**
+3.  Introduction to KNIME platform
 
-4.  **Downloading, installing and configuring scRNAseq_KNIME workflow
-    for scRNA-seq analysis**
+4.  Downloading, installing and configuring scRNAseq_KNIME workflow
+    for scRNA-seq analysis
 
-5.  **KNIME documentation**
+5.  KNIME documentation
 
-6.  **Step by step tutorial of scRNAseq_KNIME workflow using the test
-    dataset**
+6.  Step by step tutorial of scRNAseq_KNIME workflow using the test
+    dataset
 
-7.  **Frequently Asked Questions (FAQ)**
+7.  Frequently Asked Questions (FAQ)
 
 
 
-1.  **Download R and Rstudio**
+1.  <h2>Download R and Rstudio</h2>
 
 > Download and install R from the following link:
 >
@@ -58,8 +58,8 @@ Muhammad Asif: muhasif123@gmail.com
 
 -   Please note that R-4.2.0 version was used for workflow development 
 
-1.  **[Download R packages required for scRNA-seq
-    analysis ]{.underline}**
+1.  <h2>[Download R packages required for scRNA-seq
+    analysis ]{.underline}</h2>
 
 > **Following R packages are required to run the workflow**
 
@@ -138,7 +138,7 @@ Muhammad Asif: muhasif123@gmail.com
 -   Please download and install XQuartz from
     > [[http://www.xquartz.org/]{.underline}](http://www.xquartz.org/) 
 
-1.  **Introduction to KNIME platform, the Konstanz Information Miner**
+1.  <h2>Introduction to KNIME platform, the Konstanz Information Miner<h2>
 
 > KNIME (https://www.knime.com/) is an open source platform for data
 > analysis, manipulation, and reporting. KNIME aims to advance the
@@ -175,8 +175,8 @@ Figure 1: KNIME interface with its different sections
 > Video link:
 > [[https://www.youtube.com/watch?v=fMM_w4v5zZc]{.underline}](https://www.youtube.com/watch?v=fMM_w4v5zZc) 
 
-1.  **[Downloading, installing and configuring scRNAseq_KNIME workflow
-    for scRNA-seq analysis]{.underline}**
+1.  <h2>[Downloading, installing and configuring scRNAseq_KNIME workflow
+    for scRNA-seq analysis]{.underline}</h2>
 
 -   **Download KNIME from the following links:**
 
@@ -254,7 +254,7 @@ Figure 1: KNIME interface with its different sections
 >
 >  [[https://www.youtube.com/watch?v=4GiwmM-qcC4]{.underline}](https://www.youtube.com/watch?v=4GiwmM-qcC4) 
 
-1.  **KNIME documentation**
+1.  <h2>KNIME documentation</h2>
 
 -   ** KNIME Analytics Platform Installation Guide: **
 
@@ -264,7 +264,7 @@ Figure 1: KNIME interface with its different sections
 
 > [[https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workspaces]{.underline}](https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workspaces)
 
-1.  **Step by step tutorial using the test dataset  **
+1.  <h2>Step by step tutorial using the test dataset</h2>
 
 -   **Download test dataset: Peripheral Blood Mononuclear Cells (PBMC)**
 
@@ -635,7 +635,7 @@ Figure 26: Output of module 6: Clusters 3D interactive visualization
 Figure 27: Output of module 6: FeaturePlot interactive of a selected
 gene MS4A1 in the test dataset PBMCs
 
-1.  **Frequently Asked Questions (FAQ)**
+1.  <h2>Frequently Asked Questions (FAQ)</h2>
 
 -   **What is scRNA?**
 
@@ -664,9 +664,7 @@ gene MS4A1 in the test dataset PBMCs
     used by biologists, and can also serve as a basis to be customized
     for bioinformaticians. 
 
-```{=html}
-<!-- -->
-```
+
 -   **How to install the workflow?**
 
 > Please see the section: "[Downloading, installing and configuring
@@ -778,155 +776,3 @@ expression matrix and\
 > dataset " ]{.underline}
 
 -   **How can I cite the workflow?**
-
-...........................................................................................................................
-
-**Anais comments:**
-
-**Comments on the output exemple**
-
--   output images, quality OK
-
--   interactive 3D plot, "lasso select" does not seem to have the same
-    behavior as square selection, ie does not zoom in the selected area
-    automatically
-
-```{=html}
-<!-- -->
-```
--   I'm not sure of the behavior/goal of the buttons "show closest data
-    on hover" and "compare data on hover", they do not seem to have a
-    different effect on the text appearing for a given cell
-
-**Comments on the documentation**
-
--   It would be nice to have on the google doc a coarse-grained
-    description of the workflow: types of nodes (parameters, R to R...),
-    of the boxes and general organisation ... It would be also nice to
-    describe there how nodes can be edited ... different
-    execute/configure
-
-```{=html}
-<!-- -->
-```
--   This would complement the more precise description that
-    appearsappear for each node on the side window. These descriptions
-    are currently not available for all the nodes (sometimes it seems to
-    be generic description of what a node is), and it would be helpful
-    in particular to help the user know what can or need to be changed
-    according to the needs, using examples. For instance, first node is
-    dedicated to input parameters, you need to change the paths in it
-    ...
-
-![](./media/image28.png)
-
-> ![](./media/image29.png)
->
-> ![](./media/image30.png)
-
-**Comments on the execution of the pipeline**
-
--   Choose gene patterns =\> Maybe write in parenthesis mouse or human,
-    and add a note like "for other patterns in other species, you can
-    modify the code directly in the node ...". Note: this does not seem
-    to be possible anymore as the pattern is taken as input from the
-    parameter node. Maybe add commented lines in the Seurat object node
-    where the pattern can be specified, so it can be easier if users
-    want to change 
-
-> Iit?
->
-> ![](./media/image31.png)
-
--   Is it possible to launch the full workflow instead of executing node
-    per node ?
-
-```{=html}
-<!-- -->
-```
--   in the node input parameters for QC filters, it's a bit difficult to
-    relate the names of the different filters with the titles of the
-    figure plots before filtering, would be better with a better
-    homogeneity. Overall, in this parameter node, the titles could be
-    improved. Two boxes are related because they are called min and max
-    nfeature_RNA, could be close together.
-
--   box 2 is called "quality control and selecting cells", what part
-    exactly correspond to quality control and not filtering ? Is all the
-    QC corresponding to filtering ? And maybe use also "filtering" in
-    the title, because now we have a mix of filtering and selecting,
-    which is confusing
-
--   [Boxes titles are not all at the same semantic. For instance, box 3,
-    we have normalizing, scaling]{.underline} .. hence "identification"
-    should be "identifying"
-
--   what is the purpose of writing (workplace) in parenthesis in the
-    Rview nodes ?
-
--   Clustering, everybody is talking about Leiden instead of Louvain,
-    did you consider it ? How is it different from "multilevel
-    refinement"?
-
--   Title 9A) : "identity class/cluster" not clear, why "identity" ?
-    Idem 9B
-
--   the input parameter node for DEA asks for a threshold on fold change
-    and on pvalue, but I'm not sure where these thresholds are used,
-    because the other nodes use the top 20
-
--   node R to table 1st filter, problem in the parentheses, and I'm not
-    sure to understand the meaning of the sentence. Idem for the same
-    node present in another box.
-
-> ![](./media/image32.png)
-
--   [We agree that "pct" overall stands for "percentage", right ? Then,
-    I don't get what are the pct.1, 2 and other pct in the tables
-    outputs for DEA? and I'm not sure the column names are detailed
-    somewhere]{.underline}
-
-**[DEA output table]{.underline}**
-
-> [##                p_val avg_log2FC pct.1 pct.2   
-> p_val_adj]{.underline}
->
-> [\## FCGR3A 1.193617e-101  -3.776553 0.131 0.975
-> 1.636926e-97]{.underline}
->
-> [\## LYZ     8.134552e-75   2.614275 1.000 0.988
-> 1.115572e-70]{.underline}
->
-> [\## RHOC    4.479768e-68  -2.325013 0.162 0.864
-> 6.143554e-64]{.underline}
->
-> [\## S100A8  7.471811e-65   3.766437 0.975 0.500
-> 1.024684e-60]{.underline}
->
-> [\## S100A9  1.318422e-64   3.299060 0.996 0.870
-> 1.808084e-60]{.underline}
->
-> [\## IFITM2  4.821669e-64  -2.085807 0.677 1.000
-> 6.612437e-60]{.underline}
-
-[The results data frame has the following columns :]{.underline}
-
--   [p_val : p_val (unadjusted)]{.underline}
-
--   [avg_log2FC : log fold-change of the average expression between the
-    two groups. Positive values indicate that the feature is more highly
-    expressed in the first group.]{.underline}
-
--   **[pct.1 : The percentage of cells where the feature is detected in
-    the first group]{.underline}**
-
--   **[pct.2 : The percentage of cells where the feature is detected in
-    the second group]{.underline}**
-
--   [p_val_adj : Adjusted p-value, based on Bonferroni correction using
-    all features in the dataset.]{.underline}
-
-> [[https://satijalab.org/seurat/articles/de_vignette.html]{.underline}](https://satijalab.org/seurat/articles/de_vignette.html)
->
-> **[\"R to table\" node labeled as \"All DE genes\"
-> (pct.1,2)]{.underline}**![](./media/image33.png)
