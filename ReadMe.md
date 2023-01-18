@@ -1,5 +1,5 @@
-***scRNAseq_KNIME workflow: A Customizable, Locally Executable,
-Interactive and Automated KNIME workflow for scRNA seq***
+*scRNAseq_KNIME workflow: A Customizable, Locally Executable,
+Interactive and Automated KNIME workflow for scRNA seq*
 
 Samina Kausar <sup>1,†</sup>, Muhammad Asif <sup>2,†,*</sup>, and Anaïs Baudot<sup>1,3,4,</sup>*
 
@@ -21,16 +21,16 @@ Muhammad Asif: muhasif123@gmail.com
 
 **Instructions for using the scRNAseq_KNIME workflow**
 
-**[Outline]{.underline}**
+**Outline**
 
 1.  **Download R and Rstudio**
 
-2.  **Download R packages required for scRNA-seq analysis **
+2.  **Download R packages required for scRNA-seq analysis**
 
 3.  **Introduction to KNIME platform**
 
 4.  **Downloading, installing and configuring scRNAseq_KNIME workflow
-    for scRNA-seq analysis **
+    for scRNA-seq analysis**
 
 5.  **KNIME documentation**
 
@@ -39,14 +39,13 @@ Muhammad Asif: muhasif123@gmail.com
 
 7.  **Frequently Asked Questions (FAQ)**
 
-```{=html}
-<!-- -->
-```
-1.  **[Download R and Rstudio]{.underline}**
+
+
+1.  **Download R and Rstudio**
 
 > Download and install R from the following link:
 >
-> [[https://cran.r-project.org/]{.underline}](https://cran.r-project.org/) 
+> [https://cran.r-project.org/(https://cran.r-project.org/) 
 >
 > Download and install Rstudio from the following link:
 >
