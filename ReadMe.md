@@ -1,5 +1,5 @@
-*scRNAseq_KNIME workflow: A Customizable, Locally Executable,
-Interactive and Automated KNIME workflow for scRNA seq*
+<h1>scRNAseq_KNIME workflow: A Customizable, Locally Executable,
+Interactive and Automated KNIME workflow for scRNA seq</h1>
 
 Samina Kausar <sup>1,†</sup>, Muhammad Asif <sup>2,†,*</sup>, and Anaïs Baudot<sup>1,3,4,</sup>*
 
@@ -45,7 +45,7 @@ Muhammad Asif: muhasif123@gmail.com
 
 > Download and install R from the following link:
 >
-> [https://cran.r-project.org/(https://cran.r-project.org/) 
+> [[https://cran.r-project.org/]{.underline}](https://cran.r-project.org/)
 >
 > Download and install Rstudio from the following link:
 >
@@ -58,7 +58,7 @@ Muhammad Asif: muhasif123@gmail.com
 
 -   Please note that R-4.2.0 version was used for workflow development 
 
-1.  ** [Download R packages required for scRNA-seq
+1.  **[Download R packages required for scRNA-seq
     analysis ]{.underline}**
 
 > **Following R packages are required to run the workflow**
@@ -88,10 +88,10 @@ Muhammad Asif: muhasif123@gmail.com
 >
 > **NOTE: To install seurat package you may need to install Devlib or
 > developer libraries. Also,sometimes, seurat installation using
-> R/Rstudio has issues in linux. **
+> R/Rstudio has issues in linux.**
 >
 > **In this case you can install seurat using the a command in the
-> terminal. **
+> terminal.**
 >
 > **Just run the following commands one by one:**
 
@@ -129,15 +129,12 @@ Muhammad Asif: muhasif123@gmail.com
     -   Check if the Cairo package is installed. Run the following R
         > code in R/Rstudio
 
-> library(Cairo**)**
+> library(Cairo)
 
 -   On Mac OS X if you use RStudio or R, you must have a copy of
     > XQuartz, the X11 window manager, installed. This is no longer a
     > default install since Mac OS X 10.8. You need to install XQuartz
 
-```{=html}
-<!-- -->
-```
 -   Please download and install XQuartz from
     > [[http://www.xquartz.org/]{.underline}](http://www.xquartz.org/) 
 
@@ -152,7 +149,7 @@ Muhammad Asif: muhasif123@gmail.com
 > data analysis flow. Below are the resources to know more about KNIME
 > interface, components and their executions. 
 
--   **KNIME workbench: **
+-   **KNIME workbench:**
 
 > [[https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#the-knime-workbench]{.underline}](https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#the-knime-workbench)
 
@@ -162,15 +159,15 @@ Figure 1: KNIME interface with its different sections
 
 -   **KNIME Workspaces:**
 
-> **[[https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workspaces]{.underline}](https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workspaces) **
+> [[https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workspaces]{.underline}](https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workspaces) 
 
 -   **KNIME Nodes**
 
-> **[[https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workflow-editor-nodes]{.underline}](https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workflow-editor-nodes) **
+> [[https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workflow-editor-nodes]{.underline}](https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workflow-editor-nodes) 
 >
-> **Video link (What is a Node? What is a Workflow?):  **
+> **Video link (What is a Node? What is a Workflow?):**
 >
-> [**[https://www.youtube.com/watch?v=4rETNe-Xx7k&list=RDCMUCRbKmV_XYB7C12SPBokLVHQ&index=8]{.underline}**](https://www.youtube.com/watch?v=4rETNe-Xx7k&list=RDCMUCRbKmV_XYB7C12SPBokLVHQ&index=8)
+> [[https://www.youtube.com/watch?v=4rETNe-Xx7k&list=RDCMUCRbKmV_XYB7C12SPBokLVHQ&index=8]{.underline}](https://www.youtube.com/watch?v=4rETNe-Xx7k&list=RDCMUCRbKmV_XYB7C12SPBokLVHQ&index=8)
 
 -   **How to Create, Configure, Reset, Execute a Node/group of
     > nodes/full workflow and visualize each node output**
@@ -192,12 +189,8 @@ Figure 1: KNIME interface with its different sections
 > [[https://www.knime.com/download-installer/8/64bit]{.underline}](https://www.knime.com/download-installer/8/64bit)
 > (For macOS)
 
--   **Once downloaded, proceed with installing KNIME Analytics
-    > Platform:**
+-   **Once downloaded, proceed with installing KNIME Analytics Platform:**
 
-```{=html}
-<!-- -->
-```
 -   Windows: Run the downloaded installer or self-extracting archive. 
 
 -   Linux: Extract the downloaded tarball to a location of your choice.
@@ -212,8 +205,7 @@ Figure 1: KNIME interface with its different sections
 > environment**):
 > [[https://www.youtube.com/watch?v=8ISIeFKkoOE]{.underline}](https://www.youtube.com/watch?v=8ISIeFKkoOE) 
 
--   **Increase KNIME memory to handle big data and to increase the
-    > processing speed** 
+-   **Increase KNIME memory to handle big data and to increase the processing speed** 
 
 1.  Go to KNIME directory (where KNIME is installed)
 
@@ -225,7 +217,7 @@ Figure 1: KNIME interface with its different sections
     > specifications/capacity)
 
 4.  **Setting up knime.ini:
-    > [[https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#setting-up-knime-ini]{.underline}](https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#setting-up-knime-ini) **
+    > [[https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#setting-up-knime-ini]{.underline}](https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#setting-up-knime-ini)**
 
 -   **Install KNIME extensions**
 
