@@ -1,7 +1,7 @@
 **scRNAseq_KNIME workflow: A Customizable, Locally Executable,
 Interactive and Automated KNIME workflow for scRNA seq**
 
-Samina Kausar <sup>1,†</sup>, Muhammad Asif <sup>2,†,*</sup>, and Anaïs Baudot<sup>1,3,4,*</sup>\
+Samina Kausar <sup>1,†</sup>, Muhammad Asif <sup>2,†,*</sup>, and Anaïs Baudot<sup>1,3,4,</sup>*
 
 
 <sup>1</sup>Aix Marseille Université, INSERM, MMG, Marseille, France,
