@@ -1,24 +1,23 @@
 **scRNAseq_KNIME workflow: A Customizable, Locally Executable,
 Interactive and Automated KNIME workflow for scRNA seq**
 
-**Samina Kausar <sup>1,†</sup>, Muhammad Asif <sup>2,†,*</sup>, and Anaïs Baudot<sup>1,3,4,*</sup>\***
+Samina Kausar <sup>1,†</sup>, Muhammad Asif <sup>2,†,*</sup>, and Anaïs Baudot<sup>1,3,4,*</sup>\
 
 
-**<sup>1</sup>Aix Marseille Université, INSERM, MMG, Marseille, France,**
-**<sup>2</sup>Biomedical Data Science Lab, Department of Bioinformatics and
+<sup>1</sup>Aix Marseille Université, INSERM, MMG, Marseille, France,
+<sup>2</sup>Biomedical Data Science Lab, Department of Bioinformatics and
 Biotechnology, Government College University Faisalabad, Faisalabad
-38000, Pakistan,**
-**<sup>3</sup>CNRS, Marseille, France,**
+38000, Pakistan,
+<sup>3</sup>CNRS, Marseille, France,
+<sup>4</sup>Barcelona Supercomputing Center (BSC), Barcelona 08034, Spain.
 
-**<sup>4</sup>Barcelona Supercomputing Center (BSC), Barcelona 08034, Spain.**
+<sup>*</sup>Correspondence:
 
-**\<sup>*</sup>Correspondence:**
+Anaïs Baudot: anais.baudot@univ-amu.fr
 
-**Anaïs Baudot: anais.baudot@univ-amu.fr**
+Muhammad Asif: muhasif123@gmail.com
 
-**Muhammad Asif: muhasif123@gmail.com**
-
-**<sup>†</sup>Equal contributing authors**
+<sup>†</sup>Equal contributing authors
 
 **Instructions for using the scRNAseq_KNIME workflow**
 
